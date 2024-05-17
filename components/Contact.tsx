@@ -33,9 +33,9 @@ const Contact = () => {
     <form ref={form} onSubmit={sendEmail}>
       <div
         id="contact"
-        className="flex items-center gap-24 max-container padding-container h-screen"
+        className="flex flex-col lg:flex-row items-center gap-24 max-container padding-container h-full"
       >
-        <div className="flex flex-col gap-4 w-3/5 bg-white rounded-2xl py-12 px-16">
+        <div className="flex flex-col gap-4 w-full lg:w-3/5 bg-white rounded-2xl py-12 px-16">
           <p className="text-7xl text-slate-800 font-bold mb-8">Contact Me</p>
 
           <div className="flex flex-col gap-3">
@@ -60,7 +60,7 @@ const Contact = () => {
             </Button>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="hidden lg:block lg:w-2/5">
           <Lottie animationData={animationData} />
         </div>
       </div>
