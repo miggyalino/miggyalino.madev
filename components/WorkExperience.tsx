@@ -7,7 +7,7 @@ import { EXPERIENCE } from "@/constants";
 const WorkExperience = () => {
   return (
     <div className="h-full padding-container max-container flex flex-col justify-start items-center lg:items-start lg:flex-row lg:justify-between gap-16 py-32">
-      <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:sticky lg:top-80">
+      <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:sticky lg:top-60">
         <div>
           <p className="font-bold text-white text-5xl md:text-6xl lg:text-7xl max-w-4xl">
             Past Experience
@@ -19,7 +19,12 @@ const WorkExperience = () => {
           </p>
         </div>
         <div>
-          <Button variant={"destructive"}>Download CV</Button>
+          <Button
+            variant={"destructive"}
+            className="bg-[#ec4e39] hover:bg-[#d45949e0]"
+          >
+            Download CV
+          </Button>
         </div>
       </div>
       <div className="flex flex-col items-center w-full lg:w-2/5">

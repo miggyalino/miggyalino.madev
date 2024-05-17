@@ -92,19 +92,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// <section className="flex flex-col flexCenter bg-gray-200">
-//   <div id="mask" className="h-[100vh] flex flex-col flexCenter">
-//     <p className="text-6xl lg:text-7xl font-bold text-orange-800">
-//       A mad developer with obssessed tech
-//     </p>
-//     <p className="text-2xl mt-2 text-gray-500">
-//       Wassup Miggy here, Im a full stack developer who loves to design and
-//       implement applications that solves real world problems.
-//     </p>
-//   </div>
-
-//   <div id="body" className="h-[100vh] flex flex-col flexCenter">
-
-//   </div>
-// </section>

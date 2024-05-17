@@ -42,3 +42,126 @@ export const EXPERIENCE = [
     ],
   },
 ];
+
+export const PROJECTS = [
+  {
+    title: "Borderline Travel and Tours",
+    description: "Travel Agency Booking Website",
+    image: "/borderline-hero.png",
+    link: "/projects/borderline",
+    type: "UI/UX Design",
+  },
+  {
+    title: "Quicksort",
+    description: "A landing page for a software agency",
+    image: "/quicksort.png",
+    link: "/projects/quicksort",
+    type: "Frontend Development",
+  },
+
+  {
+    title: "Payroll Management Software",
+    description: "An Employee and Payroll Management System",
+    image: "/payroll-1.png",
+    link: "/projects/payroll",
+    type: "Full-stack Development",
+  },
+  {
+    title: "Hilink",
+    description: "A landing page for a camping site",
+    image: "/hilink1.png",
+    link: "/projects/hilink",
+    type: "Frontend Development",
+  },
+  {
+    title: "Purchase Order Software",
+    description: "A Purchase Order Management System",
+    image: "/purchaseOrder.png",
+    link: "/projects/purchaseOrder",
+    type: "Full-stack Development",
+  },
+  {
+    title: "A simple flight booking website",
+    description: "Basic CRUD operations with a simple UI",
+    image: "/findFlights.png",
+    link: "/projects/flightBooking",
+    type: "Full-stack Development",
+  },
+];
+
+export const BORDERLINE_PICTURES = [
+  "/borderline-page/borderline-tour-page.png",
+  "/borderline-page/borderline-booking-page-2.png",
+  "/borderline-page/borderline-booking-page-3.png",
+  "/borderline-page/borderline-booking-page-4.png",
+  "/borderline-page/borderline-payment.png",
+];
+
+export const QUICKSORT_PICTURES = [
+  "/quicksort-page/quicksort.png",
+  "/quicksort-page/quicksort-contact.png",
+  "/quicksort-page/quicksort-projects.png",
+  "/quicksort-page/quicksort-services.png",
+  "/quicksort-page/quicksort-about.png",
+];
+
+export const QUICKSORT_STACK = [
+  { name: "React", path: "/react.svg" },
+  { name: "NextJs", path: "/nextjs.svg" },
+  { name: "Typescript", path: "/typescript-icon.svg" },
+  { name: "Tailwind", path: "/file-type-tailwind.svg" },
+  { name: "Figma", path: "/figma.svg" },
+];
+
+export const PAYROLL_PICTURES = [
+  "/payroll-page/payroll-home-mockup.png",
+  "/payroll-page/payroll-1.png",
+  "/payroll-page/payroll-2.png",
+  "/payroll-page/payroll-3.png",
+];
+
+export const PAYROLL_STACK = [
+  { name: "React", path: "/react.svg" },
+  { name: "NextJs", path: "/nextjs.svg" },
+  { name: "Typescript", path: "/typescript-icon.svg" },
+  { name: "Tailwind", path: "/file-type-tailwind.svg" },
+  { name: "Prisma", path: "/prisma.svg" },
+  { name: "Postgres", path: "/postgresql.svg" },
+];
+
+export const HILINK_PICTURES = [
+  "/hilink-page/hilink-home-mockup.png",
+  "/hilink-page/hilink1.png",
+  "/hilink-page/hilink2.png",
+  "/hilink-page/hilink3.png",
+  "/hilink-page/hilink4.png",
+];
+
+export const HILINK_STACK = [
+  { name: "React", path: "/react.svg" },
+  { name: "Typescript", path: "/typescript-icon.svg" },
+  { name: "Tailwind", path: "/file-type-tailwind.svg" },
+];
+
+export const PURCHASE_PICTURES = [
+  "/purchaseOrder-page/purchaseOrder-home-mockup1.png",
+  "/purchaseOrder-page/purchaseOrder-home-mockup2.png",
+  "/purchaseOrder-page/purchaseOrder-1.png",
+  "/purchaseOrder-page/purchaseOrder-2.png",
+];
+
+export const PURCHASE_STACK = [
+  { name: "React", path: "/react.svg" },
+  { name: "NextJs", path: "/nextjs.svg" },
+  { name: "Typescript", path: "/typescript-icon.svg" },
+  { name: "Tailwind", path: "/file-type-tailwind.svg" },
+  { name: "Prisma", path: "/prisma.svg" },
+  { name: "Postgres", path: "/postgresql.svg" },
+];
+
+export const FLIGHTS_PICTURES = [
+  "/flights-page/flights-home-mockup.png",
+  "/flights-page/findFlights.png",
+  "/flights-page/flights-home-mockup.png",
+  "/flights-page/findFlights.png",
+];
