@@ -74,7 +74,7 @@ const HilinkPage = () => {
           </div>
         </div>
         <div className="mt-10 py-32 flex justify-center">
-          <Link2 href="/">
+          <Link2 href="/#contact">
             <p className="font-bold text-white xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl hover:text-[#ec4e39]">
               Have a project in mind?
             </p>

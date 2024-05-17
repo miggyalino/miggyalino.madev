@@ -3,6 +3,7 @@
 import useMousePosition from "@/utils/useMousePosition";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Hero = () => {
@@ -48,6 +49,35 @@ const Hero = () => {
               Wassup Miggy here, a relentless full stack developer with a
               passion for crafting and implementing cutting-edge applications.
             </p>
+            <div className="flex gap-8 mt-8">
+              <Link href="https://github.com/miggyalino" target="_blank">
+                <Image
+                  src={"/github.svg"}
+                  alt="github"
+                  width={50}
+                  height={50}
+                />
+              </Link>
+              <Link href="https://www.facebook.com/MiggyAlino/" target="_blank">
+                <Image
+                  src={"/facebook.svg"}
+                  alt="github"
+                  width={50}
+                  height={50}
+                />
+              </Link>
+              <Link
+                href="https://www.instagram.com/miggy.alino/"
+                target="_blank"
+              >
+                <Image
+                  src={"/instagram.svg"}
+                  alt="github"
+                  width={50}
+                  height={50}
+                />
+              </Link>
+            </div>
           </div>
           <Image
             src="/miggypic2.jpg"
@@ -78,6 +108,27 @@ const Hero = () => {
             Wassup Miggy here, Im a full stack developer who loves to design and
             implement applications that solves real world problems.
           </p>
+          <div className="flex gap-8 mt-8">
+            <Link href="">
+              <Image src={"/github.svg"} alt="github" width={50} height={50} />
+            </Link>
+            <Link href="">
+              <Image
+                src={"/facebook.svg"}
+                alt="github"
+                width={50}
+                height={50}
+              />
+            </Link>
+            <Link href="">
+              <Image
+                src={"/instagram.svg"}
+                alt="github"
+                width={50}
+                height={50}
+              />
+            </Link>
+          </div>
         </div>
         <Image
           src="/miggypic.jpg"

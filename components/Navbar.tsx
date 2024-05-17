@@ -12,16 +12,16 @@ const Navbar = () => {
         </Link>
 
         <div className=" hidden md:flex md:flexCenter gap-6 text-lg font-bold ">
-          <Link href="/about" className="hover:text-[#ec4e39]">
+          <Link href="#about" className="hover:text-[#ec4e39]">
             <p>About</p>
           </Link>
-          <Link href="/projects" className="hover:text-[#ec4e39]">
+          <Link href="#projects" className="hover:text-[#ec4e39]">
             <p>Projects</p>
           </Link>
-          <Link href="/contact" className="hover:text-[#ec4e39]">
+          <Link href="#contact" className="hover:text-[#ec4e39]">
             <p>Contact</p>
           </Link>
-          <Link href="/">
+          <Link href="Alino_Resume_2024.pdf" download="AlinoCV">
             <Button
               variant={"destructive"}
               className="bg-[#ec4e39] hover:bg-[#d45949e0]"
