@@ -60,7 +60,7 @@ const BorderlinePage = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col w-1/2 items-start justify-center">
+          <div className="flex flex-col w-full lg:w-1/2 items-start justify-center">
             <p className="font-bold text-white text-3xl md:text-4xl lg:text-5xl mt-10 mb-4">
               Tech Stack
             </p>
