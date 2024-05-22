@@ -21,7 +21,7 @@ export const DATABASE_STACK = [
 
 export const EXPERIENCE = [
   {
-    title: "Freelance Developer and Project Manager",
+    title: "Co-founder and Full Stack Developer",
     company: "Quicksort",
     date: "August 2023 to Present",
     description: [
