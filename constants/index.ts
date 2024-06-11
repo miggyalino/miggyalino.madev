@@ -21,6 +21,17 @@ export const DATABASE_STACK = [
 
 export const EXPERIENCE = [
   {
+    title: "Software Developer",
+    company: "Symph",
+    date: "May 2024 to Present",
+    description: [
+      "Collaborate with cross-functional teams to define, design, and ship new features.",
+      "Write clean, efficient, and maintainable code that adheres to best practices and coding standards.",
+      "Perform thorough testing and debugging to ensure software quality and reliability.",
+      "Develop and maintain software applications using a variety of programming languages and frameworks.",
+    ],
+  },
+  {
     title: "Co-founder and Full Stack Developer",
     company: "Quicksort",
     date: "August 2023 to Present",
@@ -32,7 +43,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Developer",
     company: "Teravision",
     date: "November 2022 to December 2022",
     description: [
